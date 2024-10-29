@@ -1,0 +1,71 @@
+﻿@page
+@model HotelManagementJsonXml.Pages.RoomJson.CreateModel
+
+@{
+    ViewData["Title"] = "Create";
+    string? roleIDString = HttpContext.Session.GetString("RoleID");
+    if (roleIDString != null)
+    {
+        int roleID = int.Parse(roleIDString);
+        if (roleID != 1)
+        {
+            Response.Redirect("../Permission");
+        }
+    }
+    else
+        Response.Redirect("../Permission");
+}
+
+<h1>Create Json</h1>
+
+<h4>RoomInformation</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="RoomInformation.RoomNumber" class="control-label"></label>
+                <input asp-for="RoomInformation.RoomNumber" class="form-control" />
+                <span asp-validation-for="RoomInformation.RoomNumber" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="RoomInformation.RoomDetailDescription" class="control-label"></label>
+                <input asp-for="RoomInformation.RoomDetailDescription" class="form-control" />
+                <span asp-validation-for="RoomInformation.RoomDetailDescription" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="RoomInformation.RoomMaxCapacity" class="control-label"></label>
+                <input asp-for="RoomInformation.RoomMaxCapacity" class="form-control" />
+                <span asp-validation-for="RoomInformation.RoomMaxCapacity" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="RoomInformation.RoomTypeId" class="control-label"></label>
+                <select asp-for="RoomInformation.RoomTypeId" class="form-control" asp-items="ViewBag.RoomTypeId"></select>
+            </div>
+            <div class="form-group">
+                <label asp-for="RoomInformation.RoomStatus" class="control-label"></label>
+                <input asp-for="RoomInformation.RoomStatus" class="form-control" />
+                <span asp-validation-for="RoomInformation.RoomStatus" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="RoomInformation.RoomPricePerDay" class="control-label"></label>
+                <input asp-for="RoomInformation.RoomPricePerDay" class="form-control" />
+                <span asp-validation-for="RoomInformation.RoomPricePerDay" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-page="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

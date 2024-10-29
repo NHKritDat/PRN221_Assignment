@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfRoomInformationDto xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <RoomInformationDto>
+    <RoomId>1</RoomId>
+    <RoomNumber>2364</RoomNumber>
+    <RoomDetailDescription>A basic room with essential amenities, suitable for individual travelers or couples.</RoomDetailDescription>
+    <RoomMaxCapacity>3</RoomMaxCapacity>
+    <RoomTypeId>1</RoomTypeId>
+    <RoomStatus>1</RoomStatus>
+    <RoomPricePerDay>149.0000</RoomPricePerDay>
+  </RoomInformationDto>
+  <RoomInformationDto>
+    <RoomId>2</RoomId>
+    <RoomNumber>3345</RoomNumber>
+    <RoomDetailDescription>Deluxe rooms offer additional features such as a balcony or sea view, upgraded bedding, and improved décor.</RoomDetailDescription>
+    <RoomMaxCapacity>5</RoomMaxCapacity>
+    <RoomTypeId>3</RoomTypeId>
+    <RoomStatus>1</RoomStatus>
+    <RoomPricePerDay>299.0000</RoomPricePerDay>
+  </RoomInformationDto>
+  <RoomInformationDto>
+    <RoomId>3</RoomId>
+    <RoomNumber>4432</RoomNumber>
+    <RoomDetailDescription>A luxurious and spacious room with separate living and sleeping areas, ideal for guests seeking extra comfort and space.</RoomDetailDescription>
+    <RoomMaxCapacity>4</RoomMaxCapacity>
+    <RoomTypeId>2</RoomTypeId>
+    <RoomStatus>0</RoomStatus>
+    <RoomPricePerDay>199.0000</RoomPricePerDay>
+  </RoomInformationDto>
+  <RoomInformationDto>
+    <RoomId>5</RoomId>
+    <RoomNumber>3342</RoomNumber>
+    <RoomDetailDescription>Foor 3, Window in the North West </RoomDetailDescription>
+    <RoomMaxCapacity>5</RoomMaxCapacity>
+    <RoomTypeId>5</RoomTypeId>
+    <RoomStatus>1</RoomStatus>
+    <RoomPricePerDay>219.0000</RoomPricePerDay>
+  </RoomInformationDto>
+  <RoomInformationDto>
+    <RoomId>7</RoomId>
+    <RoomNumber>4434</RoomNumber>
+    <RoomDetailDescription>Floor 4, main window in the South </RoomDetailDescription>
+    <RoomMaxCapacity>4</RoomMaxCapacity>
+    <RoomTypeId>1</RoomTypeId>
+    <RoomStatus>1</RoomStatus>
+    <RoomPricePerDay>179.0000</RoomPricePerDay>
+  </RoomInformationDto>
+  <RoomInformationDto>
+    <RoomId>1008</RoomId>
+    <RoomNumber>804</RoomNumber>
+    <RoomDetailDescription>Phong 6 nguoi</RoomDetailDescription>
+    <RoomMaxCapacity>6</RoomMaxCapacity>
+    <RoomTypeId>1</RoomTypeId>
+    <RoomStatus>1</RoomStatus>
+    <RoomPricePerDay>15.0000</RoomPricePerDay>
+  </RoomInformationDto>
+  <RoomInformationDto>
+    <RoomId>1009</RoomId>
+    <RoomNumber>710</RoomNumber>
+    <RoomDetailDescription>Phong dich vu 4 nguoi</RoomDetailDescription>
+    <RoomMaxCapacity>4</RoomMaxCapacity>
+    <RoomTypeId>3</RoomTypeId>
+    <RoomStatus>1</RoomStatus>
+    <RoomPricePerDay>40.0000</RoomPricePerDay>
+  </RoomInformationDto>
+</ArrayOfRoomInformationDto>

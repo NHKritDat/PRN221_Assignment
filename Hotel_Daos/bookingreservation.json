@@ -1,0 +1,37 @@
+[
+  {
+    "BookingReservationId": 1,
+    "BookingDate": "2023-12-20T00:00:00",
+    "TotalPrice": 378.0000,
+    "CustomerId": 3,
+    "BookingStatus": 1
+  },
+  {
+    "BookingReservationId": 2,
+    "BookingDate": "2023-12-21T00:00:00",
+    "TotalPrice": 1493.0000,
+    "CustomerId": 3,
+    "BookingStatus": 1
+  },
+  {
+    "BookingReservationId": 3,
+    "BookingDate": "2024-10-15T00:00:00",
+    "TotalPrice": 1253.0000,
+    "CustomerId": 11,
+    "BookingStatus": 1
+  },
+  {
+    "BookingReservationId": 4,
+    "BookingDate": "2024-10-21T00:00:00",
+    "TotalPrice": 75.0000,
+    "CustomerId": 14,
+    "BookingStatus": 1
+  },
+  {
+    "BookingReservationId": 5,
+    "BookingDate": "2024-10-23T15:17:35.376",
+    "TotalPrice": 45.0000,
+    "CustomerId": 15,
+    "BookingStatus": 1
+  }
+]

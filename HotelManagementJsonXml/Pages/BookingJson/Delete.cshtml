@@ -1,0 +1,57 @@
+﻿@page
+@model HotelManagementJsonXml.Pages.BookingJson.DeleteModel
+
+@{
+    ViewData["Title"] = "Delete";
+    string? roleIDString = HttpContext.Session.GetString("RoleID");
+    if (roleIDString != null)
+    {
+        int roleID = int.Parse(roleIDString);
+        if (roleID != 1)
+        {
+            Response.Redirect("../Permission");
+        }
+    }
+    else
+        Response.Redirect("../Permission");
+}
+
+<h1>Delete Json</h1>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>BookingReservation</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.BookingReservation.BookingDate)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.BookingReservation.BookingDate)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.BookingReservation.TotalPrice)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.BookingReservation.TotalPrice)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.BookingReservation.BookingStatus)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.BookingReservation.BookingStatus)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.BookingReservation.Customer)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.BookingReservation.Customer.EmailAddress)
+        </dd>
+    </dl>
+
+    <form method="post">
+        <input type="hidden" asp-for="BookingReservation.BookingReservationId" />
+        <input type="submit" value="Delete" class="btn btn-danger" /> |
+        <a asp-page="./Index">Back to List</a>
+    </form>
+</div>

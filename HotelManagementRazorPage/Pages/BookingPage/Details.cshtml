@@ -1,0 +1,92 @@
+﻿@page
+@model HotelManagementRazorPage.Pages.BookingPage.DetailsModel
+
+@{
+    ViewData["Title"] = "Details";
+    string? roleIDString = HttpContext.Session.GetString("RoleID");
+    if (roleIDString != null)
+    {
+        int roleID = int.Parse(roleIDString);
+        if (roleID != 1)
+        {
+            Response.Redirect("../Permission");
+        }
+    }
+    else
+        Response.Redirect("../Permission");
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>BookingReservation</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.BookingReservation.BookingDate)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.BookingReservation.BookingDate)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.BookingReservation.TotalPrice)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.BookingReservation.TotalPrice)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.BookingReservation.BookingStatus)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.BookingReservation.BookingStatus)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.BookingReservation.Customer)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.BookingReservation.Customer.EmailAddress)
+        </dd>
+    </dl>
+</div>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.BookingDetail[0].Room)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.BookingDetail[0].StartDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.BookingDetail[0].EndDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.BookingDetail[0].ActualPrice)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.BookingDetail)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Room.RoomNumber)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.StartDate)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.EndDate)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ActualPrice)
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+<div>
+    <a asp-page="./Edit" asp-route-id="@Model.BookingReservation?.BookingReservationId">Edit</a> |
+    <a asp-page="./Index">Back to List</a>
+</div>

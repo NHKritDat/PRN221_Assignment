@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfBookingReservationDto xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <BookingReservationDto>
+    <BookingReservationId>1</BookingReservationId>
+    <BookingDate>2023-12-20T00:00:00</BookingDate>
+    <TotalPrice>378.0000</TotalPrice>
+    <CustomerId>3</CustomerId>
+    <BookingStatus>1</BookingStatus>
+  </BookingReservationDto>
+  <BookingReservationDto>
+    <BookingReservationId>2</BookingReservationId>
+    <BookingDate>2023-12-21T00:00:00</BookingDate>
+    <TotalPrice>1493.0000</TotalPrice>
+    <CustomerId>3</CustomerId>
+    <BookingStatus>1</BookingStatus>
+  </BookingReservationDto>
+  <BookingReservationDto>
+    <BookingReservationId>3</BookingReservationId>
+    <BookingDate>2024-10-15T00:00:00</BookingDate>
+    <TotalPrice>1253.0000</TotalPrice>
+    <CustomerId>11</CustomerId>
+    <BookingStatus>1</BookingStatus>
+  </BookingReservationDto>
+  <BookingReservationDto>
+    <BookingReservationId>4</BookingReservationId>
+    <BookingDate>2024-10-21T00:00:00</BookingDate>
+    <TotalPrice>75.0000</TotalPrice>
+    <CustomerId>14</CustomerId>
+    <BookingStatus>1</BookingStatus>
+  </BookingReservationDto>
+  <BookingReservationDto>
+    <BookingReservationId>5</BookingReservationId>
+    <BookingDate>2024-10-23T15:22:25.586</BookingDate>
+    <TotalPrice>836.0000</TotalPrice>
+    <CustomerId>15</CustomerId>
+    <BookingStatus>1</BookingStatus>
+  </BookingReservationDto>
+</ArrayOfBookingReservationDto>

@@ -1,0 +1,30 @@
+{
+  "profiles": {
+    "HotelManagementRazorPage": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "launchUrl": "Login",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "dotnetRunMessages": true,
+      "applicationUrl": "https://localhost:7231;http://localhost:5054"
+    },
+    "IIS Express": {
+      "commandName": "IISExpress",
+      "launchBrowser": true,
+      "launchUrl": "Login",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    }
+  },
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "http://localhost:7894",
+      "sslPort": 44338
+    }
+  }
+}

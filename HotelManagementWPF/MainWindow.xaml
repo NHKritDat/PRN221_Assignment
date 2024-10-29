@@ -1,0 +1,21 @@
+﻿<Window x:Class="HotelManagementWPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:HotelManagementWPF"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800" WindowStartupLocation="CenterScreen" WindowStyle="None">
+    <Grid>
+        <Border Background="LightBlue" BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Center" Height="242" VerticalAlignment="Center" Width="326">
+            <Label Content="Hotel Management System" HorizontalAlignment="Center" Height="47" Margin="0,9,0,0" VerticalAlignment="Top" Width="298" FontSize="24"/>
+        </Border>
+        <Label Content="LOGIN" HorizontalAlignment="Center" Height="29" Margin="0,155,0,0" VerticalAlignment="Top" Width="58" FontSize="16"/>
+        <Label Content="Email:" HorizontalAlignment="Left" Margin="303,195,0,0" VerticalAlignment="Top"/>
+        <Label Content="Password:" HorizontalAlignment="Left" Margin="292,238,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtEmail" HorizontalAlignment="Left" Height="26" Margin="371,195,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="143"/>
+        <PasswordBox x:Name="txtPassword" HorizontalAlignment="Left" Height="26" Margin="371,238,0,0" VerticalAlignment="Top" Width="143"/>
+        <Button x:Name="btnSubmit" Content="Submit" HorizontalAlignment="Left" Height="31" Margin="303,289,0,0" VerticalAlignment="Top" Width="61" Click="btnSubmit_Click"/>
+        <Button x:Name="btnCancel" Content="Cancel" HorizontalAlignment="Left" Height="31" Margin="442,289,0,0" VerticalAlignment="Top" Width="62" Click="btnCancel_Click"/>
+    </Grid>
+</Window>

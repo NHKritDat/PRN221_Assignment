@@ -1,0 +1,78 @@
+﻿@page
+@model HotelManagementRazorPage.Pages.CustomerPage.IndexModel
+
+@{
+    ViewData["Title"] = "Index";
+    string? roleIDString = HttpContext.Session.GetString("RoleID");
+    if (roleIDString != null)
+    {
+        int roleID = int.Parse(roleIDString);
+        if (roleID != 1)
+        {
+            Response.Redirect("../Permission");
+        }
+    }
+    else
+        Response.Redirect("../Permission");
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-page="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Customer[0].CustomerFullName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Customer[0].Telephone)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Customer[0].EmailAddress)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Customer[0].CustomerBirthday)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Customer[0].CustomerStatus)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Customer[0].Password)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.Customer)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.CustomerFullName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Telephone)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.EmailAddress)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.CustomerBirthday)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.CustomerStatus)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Password)
+                </td>
+                <td>
+                    <a asp-page="./Edit" asp-route-id="@item.CustomerId">Edit</a> |
+                    <a asp-page="./Details" asp-route-id="@item.CustomerId">Details</a> |
+                    <a asp-page="./Delete" asp-route-id="@item.CustomerId">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

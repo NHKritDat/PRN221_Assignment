@@ -1,0 +1,83 @@
+[
+  {
+    "CustomerId": 3,
+    "CustomerFullName": "William Shakespeare",
+    "Telephone": "0903939393",
+    "EmailAddress": "WilliamShakespeare@FUMiniHotel.org",
+    "CustomerBirthday": "1990-02-02T00:00:00",
+    "CustomerStatus": 1,
+    "Password": "123@"
+  },
+  {
+    "CustomerId": 5,
+    "CustomerFullName": "Elizabeth Taylor",
+    "Telephone": "0903939377",
+    "EmailAddress": "ElizabethTaylor@FUMiniHotel.org",
+    "CustomerBirthday": "1991-03-03T00:00:00",
+    "CustomerStatus": 1,
+    "Password": "144@"
+  },
+  {
+    "CustomerId": 8,
+    "CustomerFullName": "James Cameron",
+    "Telephone": "0903946582",
+    "EmailAddress": "JamesCameron@FUMiniHotel.org",
+    "CustomerBirthday": "1992-11-10T00:00:00",
+    "CustomerStatus": 1,
+    "Password": "443@"
+  },
+  {
+    "CustomerId": 9,
+    "CustomerFullName": "Charles Dickens",
+    "Telephone": "0903955633",
+    "EmailAddress": "CharlesDickens@FUMiniHotel.org",
+    "CustomerBirthday": "1991-12-05T00:00:00",
+    "CustomerStatus": 1,
+    "Password": "563@"
+  },
+  {
+    "CustomerId": 10,
+    "CustomerFullName": "George Orwell",
+    "Telephone": "0913933493",
+    "EmailAddress": "GeorgeOrwell@FUMiniHotel.org",
+    "CustomerBirthday": "1993-12-24T00:00:00",
+    "CustomerStatus": 1,
+    "Password": "177@"
+  },
+  {
+    "CustomerId": 11,
+    "CustomerFullName": "Victoria Beckham",
+    "Telephone": "0983246773",
+    "EmailAddress": "VictoriaBeckham@FUMiniHotel.org",
+    "CustomerBirthday": "1990-09-09T00:00:00",
+    "CustomerStatus": 1,
+    "Password": "654@"
+  },
+  {
+    "CustomerId": 13,
+    "CustomerFullName": "Tran La Luot",
+    "Telephone": "0987654321",
+    "EmailAddress": "tranlaluot@gmail.com",
+    "CustomerBirthday": "2024-10-03T00:00:00",
+    "CustomerStatus": 1,
+    "Password": "123@"
+  },
+  {
+    "CustomerId": 14,
+    "CustomerFullName": "Do The Hieu",
+    "Telephone": "0967175325",
+    "EmailAddress": "hieudtse170041@fpt.edu.vn",
+    "CustomerBirthday": "2003-11-30T00:00:00",
+    "CustomerStatus": 1,
+    "Password": "123@"
+  },
+  {
+    "CustomerId": 15,
+    "CustomerFullName": "Nguyen Hoang Dat",
+    "Telephone": "0966548257",
+    "EmailAddress": "datnhse170330@fpt.edu.vn",
+    "CustomerBirthday": "2003-10-01T19:03:00",
+    "CustomerStatus": 1,
+    "Password": "123@"
+  }
+]

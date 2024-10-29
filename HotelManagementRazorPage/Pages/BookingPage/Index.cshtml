@@ -1,0 +1,66 @@
+﻿@page
+@model HotelManagementRazorPage.Pages.BookingPage.IndexModel
+
+@{
+    ViewData["Title"] = "Index";
+    string? roleIDString = HttpContext.Session.GetString("RoleID");
+    if (roleIDString != null)
+    {
+        int roleID = int.Parse(roleIDString);
+        if (roleID != 1)
+        {
+            Response.Redirect("../Permission");
+        }
+    }
+    else
+        Response.Redirect("../Permission");
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-page="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.BookingReservation[0].BookingDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.BookingReservation[0].TotalPrice)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.BookingReservation[0].BookingStatus)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.BookingReservation[0].Customer)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.BookingReservation)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.BookingDate)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.TotalPrice)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.BookingStatus)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Customer.EmailAddress)
+                </td>
+                <td>
+                    <a asp-page="./Edit" asp-route-id="@item.BookingReservationId">Edit</a> |
+                    <a asp-page="./Details" asp-route-id="@item.BookingReservationId">Details</a> |
+                    <a asp-page="./Delete" asp-route-id="@item.BookingReservationId">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

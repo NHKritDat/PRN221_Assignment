@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfCustomerDto xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CustomerDto>
+    <CustomerId>3</CustomerId>
+    <CustomerFullName>William Shakespeare</CustomerFullName>
+    <Telephone>0903939393</Telephone>
+    <EmailAddress>WilliamShakespeare@FUMiniHotel.org</EmailAddress>
+    <CustomerBirthday>1990-02-02T00:00:00</CustomerBirthday>
+    <CustomerStatus>1</CustomerStatus>
+    <Password>123@</Password>
+  </CustomerDto>
+  <CustomerDto>
+    <CustomerId>5</CustomerId>
+    <CustomerFullName>Elizabeth Taylor</CustomerFullName>
+    <Telephone>0903939377</Telephone>
+    <EmailAddress>ElizabethTaylor@FUMiniHotel.org</EmailAddress>
+    <CustomerBirthday>1991-03-03T00:00:00</CustomerBirthday>
+    <CustomerStatus>1</CustomerStatus>
+    <Password>144@</Password>
+  </CustomerDto>
+  <CustomerDto>
+    <CustomerId>8</CustomerId>
+    <CustomerFullName>James Cameron</CustomerFullName>
+    <Telephone>0903946582</Telephone>
+    <EmailAddress>JamesCameron@FUMiniHotel.org</EmailAddress>
+    <CustomerBirthday>1992-11-10T00:00:00</CustomerBirthday>
+    <CustomerStatus>1</CustomerStatus>
+    <Password>443@</Password>
+  </CustomerDto>
+  <CustomerDto>
+    <CustomerId>9</CustomerId>
+    <CustomerFullName>Charles Dickens</CustomerFullName>
+    <Telephone>0903955633</Telephone>
+    <EmailAddress>CharlesDickens@FUMiniHotel.org</EmailAddress>
+    <CustomerBirthday>1991-12-05T00:00:00</CustomerBirthday>
+    <CustomerStatus>1</CustomerStatus>
+    <Password>563@</Password>
+  </CustomerDto>
+  <CustomerDto>
+    <CustomerId>10</CustomerId>
+    <CustomerFullName>George Orwell</CustomerFullName>
+    <Telephone>0913933493</Telephone>
+    <EmailAddress>GeorgeOrwell@FUMiniHotel.org</EmailAddress>
+    <CustomerBirthday>1993-12-24T00:00:00</CustomerBirthday>
+    <CustomerStatus>1</CustomerStatus>
+    <Password>177@</Password>
+  </CustomerDto>
+  <CustomerDto>
+    <CustomerId>11</CustomerId>
+    <CustomerFullName>Victoria Beckham</CustomerFullName>
+    <Telephone>0983246773</Telephone>
+    <EmailAddress>VictoriaBeckham@FUMiniHotel.org</EmailAddress>
+    <CustomerBirthday>1990-09-09T00:00:00</CustomerBirthday>
+    <CustomerStatus>1</CustomerStatus>
+    <Password>654@</Password>
+  </CustomerDto>
+  <CustomerDto>
+    <CustomerId>13</CustomerId>
+    <CustomerFullName>Tran La Luot</CustomerFullName>
+    <Telephone>0987654321</Telephone>
+    <EmailAddress>tranlaluot@gmail.com</EmailAddress>
+    <CustomerBirthday>2024-10-03T00:00:00</CustomerBirthday>
+    <CustomerStatus>1</CustomerStatus>
+    <Password>123@</Password>
+  </CustomerDto>
+  <CustomerDto>
+    <CustomerId>14</CustomerId>
+    <CustomerFullName>Do The Hieu</CustomerFullName>
+    <Telephone>0967175325</Telephone>
+    <EmailAddress>hieudtse170041@fpt.edu.vn</EmailAddress>
+    <CustomerBirthday>2003-11-30T00:00:00</CustomerBirthday>
+    <CustomerStatus>1</CustomerStatus>
+    <Password>123@</Password>
+  </CustomerDto>
+  <CustomerDto>
+    <CustomerId>15</CustomerId>
+    <CustomerFullName>Do Duong Dang Khoa</CustomerFullName>
+    <Telephone>0396090487</Telephone>
+    <EmailAddress>khoadddse170285@fpt.edu.vn</EmailAddress>
+    <CustomerBirthday>2003-01-01T19:43:00</CustomerBirthday>
+    <CustomerStatus>1</CustomerStatus>
+    <Password>123@</Password>
+  </CustomerDto>
+</ArrayOfCustomerDto>

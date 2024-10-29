@@ -1,0 +1,65 @@
+[
+  {
+    "RoomId": 1,
+    "RoomNumber": "2364",
+    "RoomDetailDescription": "A basic room with essential amenities, suitable for individual travelers or couples.",
+    "RoomMaxCapacity": 3,
+    "RoomTypeId": 1,
+    "RoomStatus": 1,
+    "RoomPricePerDay": 149.0000
+  },
+  {
+    "RoomId": 2,
+    "RoomNumber": "3345",
+    "RoomDetailDescription": "Deluxe rooms offer additional features such as a balcony or sea view, upgraded bedding, and improved d\u00E9cor.",
+    "RoomMaxCapacity": 5,
+    "RoomTypeId": 3,
+    "RoomStatus": 1,
+    "RoomPricePerDay": 299.0000
+  },
+  {
+    "RoomId": 3,
+    "RoomNumber": "4432",
+    "RoomDetailDescription": "A luxurious and spacious room with separate living and sleeping areas, ideal for guests seeking extra comfort and space.",
+    "RoomMaxCapacity": 4,
+    "RoomTypeId": 2,
+    "RoomStatus": 0,
+    "RoomPricePerDay": 199.0000
+  },
+  {
+    "RoomId": 5,
+    "RoomNumber": "3342",
+    "RoomDetailDescription": "Foor 3, Window in the North West ",
+    "RoomMaxCapacity": 5,
+    "RoomTypeId": 5,
+    "RoomStatus": 1,
+    "RoomPricePerDay": 219.0000
+  },
+  {
+    "RoomId": 7,
+    "RoomNumber": "4434",
+    "RoomDetailDescription": "Floor 4, main window in the South ",
+    "RoomMaxCapacity": 4,
+    "RoomTypeId": 1,
+    "RoomStatus": 1,
+    "RoomPricePerDay": 179.0000
+  },
+  {
+    "RoomId": 1008,
+    "RoomNumber": "804",
+    "RoomDetailDescription": "Phong 6 nguoi",
+    "RoomMaxCapacity": 6,
+    "RoomTypeId": 1,
+    "RoomStatus": 1,
+    "RoomPricePerDay": 15.0000
+  },
+  {
+    "RoomId": 1009,
+    "RoomNumber": "710",
+    "RoomDetailDescription": "Phong dich vu 4 nguoi",
+    "RoomMaxCapacity": 4,
+    "RoomTypeId": 3,
+    "RoomStatus": 1,
+    "RoomPricePerDay": 40.0000
+  }
+]

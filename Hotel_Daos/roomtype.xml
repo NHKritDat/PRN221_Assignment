@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfRoomTypeDto xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <RoomTypeDto>
+    <RoomTypeId>1</RoomTypeId>
+    <RoomTypeName>Standard room</RoomTypeName>
+    <TypeDescription>This is typically the most affordable option and provides basic amenities such as a bed, dresser, and TV.</TypeDescription>
+    <TypeNote>N/A</TypeNote>
+  </RoomTypeDto>
+  <RoomTypeDto>
+    <RoomTypeId>2</RoomTypeId>
+    <RoomTypeName>Suite</RoomTypeName>
+    <TypeDescription>Suites usually offer more space and amenities than standard rooms, such as a separate living area, kitchenette, and multiple bathrooms.</TypeDescription>
+    <TypeNote>N/A</TypeNote>
+  </RoomTypeDto>
+  <RoomTypeDto>
+    <RoomTypeId>3</RoomTypeId>
+    <RoomTypeName>Deluxe room</RoomTypeName>
+    <TypeDescription>Deluxe rooms offer additional features such as a balcony or sea view, upgraded bedding, and improved décor.</TypeDescription>
+    <TypeNote>N/A</TypeNote>
+  </RoomTypeDto>
+  <RoomTypeDto>
+    <RoomTypeId>4</RoomTypeId>
+    <RoomTypeName>Executive room</RoomTypeName>
+    <TypeDescription>Executive rooms are designed for business travelers and offer perks such as free breakfast, evening drink, and high-speed internet.</TypeDescription>
+    <TypeNote>N/A</TypeNote>
+  </RoomTypeDto>
+  <RoomTypeDto>
+    <RoomTypeId>5</RoomTypeId>
+    <RoomTypeName>Family Room</RoomTypeName>
+    <TypeDescription>A room specifically designed to accommodate families, often with multiple beds and additional space for children.</TypeDescription>
+    <TypeNote>N/A</TypeNote>
+  </RoomTypeDto>
+  <RoomTypeDto>
+    <RoomTypeId>6</RoomTypeId>
+    <RoomTypeName>Connecting Room</RoomTypeName>
+    <TypeDescription>Two or more rooms with a connecting door, providing flexibility for larger groups or families traveling together.</TypeDescription>
+    <TypeNote>N/A</TypeNote>
+  </RoomTypeDto>
+  <RoomTypeDto>
+    <RoomTypeId>7</RoomTypeId>
+    <RoomTypeName>Penthouse Suite</RoomTypeName>
+    <TypeDescription>An extravagant, top-floor suite with exceptional views and exclusive amenities, typically chosen for special occasions or VIP guests.</TypeDescription>
+    <TypeNote>N/A</TypeNote>
+  </RoomTypeDto>
+  <RoomTypeDto>
+    <RoomTypeId>8</RoomTypeId>
+    <RoomTypeName>Bungalow</RoomTypeName>
+    <TypeDescription>A standalone cottage-style accommodation, providing privacy and a sense of seclusion often within a resort setting</TypeDescription>
+    <TypeNote>N/A</TypeNote>
+  </RoomTypeDto>
+</ArrayOfRoomTypeDto>
