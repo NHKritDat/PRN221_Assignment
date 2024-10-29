@@ -1,15 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ArrayOfRoomInformationDto xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <RoomInformationDto>
-    <RoomId>1</RoomId>
-    <RoomNumber>2364</RoomNumber>
-    <RoomDetailDescription>A basic room with essential amenities, suitable for individual travelers or couples.</RoomDetailDescription>
-    <RoomMaxCapacity>3</RoomMaxCapacity>
-    <RoomTypeId>1</RoomTypeId>
-    <RoomStatus>1</RoomStatus>
-    <RoomPricePerDay>149.0000</RoomPricePerDay>
-  </RoomInformationDto>
-  <RoomInformationDto>
     <RoomId>2</RoomId>
     <RoomNumber>3345</RoomNumber>
     <RoomDetailDescription>Deluxe rooms offer additional features such as a balcony or sea view, upgraded bedding, and improved décor.</RoomDetailDescription>

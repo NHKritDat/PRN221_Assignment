@@ -29,9 +29,23 @@
   },
   {
     "BookingReservationId": 5,
-    "BookingDate": "2024-10-23T15:17:35.376",
-    "TotalPrice": 45.0000,
-    "CustomerId": 15,
+    "BookingDate": "2024-10-29T00:00:00",
+    "TotalPrice": 30.0000,
+    "CustomerId": 21,
+    "BookingStatus": 1
+  },
+  {
+    "BookingReservationId": 6,
+    "BookingDate": "2024-10-29T00:00:00",
+    "TotalPrice": 30.0000,
+    "CustomerId": 21,
+    "BookingStatus": 1
+  },
+  {
+    "BookingReservationId": 7,
+    "BookingDate": "2024-10-29T16:41:28.7159827+07:00",
+    "TotalPrice": 1196.0000,
+    "CustomerId": 22,
     "BookingStatus": 1
   }
 ]

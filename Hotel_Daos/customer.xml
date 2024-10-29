@@ -57,9 +57,9 @@
   <CustomerDto>
     <CustomerId>13</CustomerId>
     <CustomerFullName>Tran La Luot</CustomerFullName>
-    <Telephone>0987654321</Telephone>
+    <Telephone>0966548257</Telephone>
     <EmailAddress>tranlaluot@gmail.com</EmailAddress>
-    <CustomerBirthday>2024-10-03T00:00:00</CustomerBirthday>
+    <CustomerBirthday>2003-10-01T00:00:00</CustomerBirthday>
     <CustomerStatus>1</CustomerStatus>
     <Password>123@</Password>
   </CustomerDto>
@@ -73,11 +73,20 @@
     <Password>123@</Password>
   </CustomerDto>
   <CustomerDto>
-    <CustomerId>15</CustomerId>
-    <CustomerFullName>Do Duong Dang Khoa</CustomerFullName>
-    <Telephone>0396090487</Telephone>
-    <EmailAddress>khoadddse170285@fpt.edu.vn</EmailAddress>
-    <CustomerBirthday>2003-01-01T19:43:00</CustomerBirthday>
+    <CustomerId>21</CustomerId>
+    <CustomerFullName>dat</CustomerFullName>
+    <Telephone>0966548257</Telephone>
+    <EmailAddress>datnhse170330@fpt.edu.vn</EmailAddress>
+    <CustomerBirthday>2003-10-01T00:00:00</CustomerBirthday>
+    <CustomerStatus>1</CustomerStatus>
+    <Password>123@</Password>
+  </CustomerDto>
+  <CustomerDto>
+    <CustomerId>22</CustomerId>
+    <CustomerFullName>adawdadwasd</CustomerFullName>
+    <Telephone>0967175325</Telephone>
+    <EmailAddress>hieudtse170042@fpt.edu.vn</EmailAddress>
+    <CustomerBirthday>2024-10-29T16:40:00</CustomerBirthday>
     <CustomerStatus>1</CustomerStatus>
     <Password>123@</Password>
   </CustomerDto>

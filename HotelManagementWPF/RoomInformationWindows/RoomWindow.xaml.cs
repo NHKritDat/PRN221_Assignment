@@ -167,8 +167,8 @@ namespace HotelManagementWPF.RoomInformationWindows
 
         private void btnJson_Click(object sender, RoutedEventArgs e)
         {
-            string roominformation = "..\\Hotel_Daos\\roominformation";
-            string roomtype = "..\\Hotel_Daos\\roomtype";
+            string roominformation = "D:\\Develops\\Projects\\Personal\\PRN221_Assignment\\NguyenHoangDat_SE170330\\Hotel_Daos\\roominformation";
+            string roomtype = "D:\\Develops\\Projects\\Personal\\PRN221_Assignment\\NguyenHoangDat_SE170330\\Hotel_Daos\\roomtype";
             var roominformations = ToListDto(_roomInformationService.GetRoomInformations());
             var roomtypes = ToListDto(_roomTypeService.GetRoomTypes());
             _roomInformationService.WriteFile(roominformations, roominformation, ".json");
@@ -178,8 +178,8 @@ namespace HotelManagementWPF.RoomInformationWindows
 
         private void btnXml_Click(object sender, RoutedEventArgs e)
         {
-            string roominformation = "..\\Hotel_Daos\\roominformation";
-            string roomtype = "..\\Hotel_Daos\\roomtype";
+            string roominformation = "D:\\Develops\\Projects\\Personal\\PRN221_Assignment\\NguyenHoangDat_SE170330\\Hotel_Daos\\roominformation";
+            string roomtype = "D:\\Develops\\Projects\\Personal\\PRN221_Assignment\\NguyenHoangDat_SE170330\\Hotel_Daos\\roomtype";
             var roominformations = ToListDto(_roomInformationService.GetRoomInformations());
             var roomtypes = ToListDto(_roomTypeService.GetRoomTypes());
             _roomInformationService.WriteFile(roominformations, roominformation, ".xml");

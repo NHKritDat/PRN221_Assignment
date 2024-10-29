@@ -172,8 +172,8 @@ namespace HotelManagementWPF.BookingReservationWindows
 
         private void btnJson_Click(object sender, RoutedEventArgs e)
         {
-            string bookingreservation = "..\\Hotel_Daos\\bookingreservation";
-            string bookingdetail = "..\\Hotel_Daos\\bookingdetail";
+            string bookingreservation = "D:\\Develops\\Projects\\Personal\\PRN221_Assignment\\NguyenHoangDat_SE170330\\Hotel_Daos\\bookingreservation";
+            string bookingdetail = "D:\\Develops\\Projects\\Personal\\PRN221_Assignment\\NguyenHoangDat_SE170330\\Hotel_Daos\\bookingdetail";
             var bookingreservations = ToListDto(_reservationService.GetBookingReservations());
             var bookingdetails = ToListDto(_detailService.GetBookingDetails());
             _reservationService.WriteFile(bookingreservations, bookingreservation, ".json");
@@ -219,8 +219,8 @@ namespace HotelManagementWPF.BookingReservationWindows
 
         private void btnXml_Click(object sender, RoutedEventArgs e)
         {
-            string bookingreservation = "..\\Hotel_Daos\\bookingreservation";
-            string bookingdetail = "..\\Hotel_Daos\\bookingdetail";
+            string bookingreservation = "D:\\Develops\\Projects\\Personal\\PRN221_Assignment\\NguyenHoangDat_SE170330\\Hotel_Daos\\bookingreservation";
+            string bookingdetail = "D:\\Develops\\Projects\\Personal\\PRN221_Assignment\\NguyenHoangDat_SE170330\\Hotel_Daos\\bookingdetail";
             var bookingreservations = ToListDto(_reservationService.GetBookingReservations());
             var bookingdetails = ToListDto(_detailService.GetBookingDetails());
             _reservationService.WriteFile(bookingreservations, bookingreservation, ".xml");

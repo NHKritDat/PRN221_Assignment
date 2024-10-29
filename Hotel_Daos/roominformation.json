@@ -1,14 +1,5 @@
 [
   {
-    "RoomId": 1,
-    "RoomNumber": "2364",
-    "RoomDetailDescription": "A basic room with essential amenities, suitable for individual travelers or couples.",
-    "RoomMaxCapacity": 3,
-    "RoomTypeId": 1,
-    "RoomStatus": 1,
-    "RoomPricePerDay": 149.0000
-  },
-  {
     "RoomId": 2,
     "RoomNumber": "3345",
     "RoomDetailDescription": "Deluxe rooms offer additional features such as a balcony or sea view, upgraded bedding, and improved d\u00E9cor.",

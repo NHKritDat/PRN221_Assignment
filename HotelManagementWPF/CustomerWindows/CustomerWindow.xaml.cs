@@ -111,7 +111,7 @@ namespace HotelManagementWPF
 
         private void btnXml_Click(object sender, RoutedEventArgs e)
         {
-            string path = "..\\Hotel_Daos\\customer";
+            string path = "D:\\Develops\\Projects\\Personal\\PRN221_Assignment\\NguyenHoangDat_SE170330\\Hotel_Daos\\customer";
             var customers = ToListDto(_customerService.GetCustomers());
             _customerService.WriteFile(customers, path, ".xml");
             MessageBox.Show("Export successfully!", "Success", MessageBoxButton.OK, MessageBoxImage.Information);
@@ -119,7 +119,7 @@ namespace HotelManagementWPF
 
         private void btnJson_Click(object sender, RoutedEventArgs e)
         {
-            string path = "..\\Hotel_Daos\\customer";
+            string path = "D:\\Develops\\Projects\\Personal\\PRN221_Assignment\\NguyenHoangDat_SE170330\\Hotel_Daos\\customer";
             var customers = ToListDto(_customerService.GetCustomers());
             _customerService.WriteFile(customers, path, ".json");
             MessageBox.Show("Export successfully!", "Success", MessageBoxButton.OK, MessageBoxImage.Information);

@@ -44,23 +44,23 @@
   </BookingDetailDto>
   <BookingDetailDto>
     <BookingReservationId>5</BookingReservationId>
-    <RoomId>3</RoomId>
-    <StartDate>2024-10-23T15:22:00</StartDate>
-    <EndDate>2024-10-25T15:22:00</EndDate>
-    <ActualPrice>398.0000</ActualPrice>
+    <RoomId>1008</RoomId>
+    <StartDate>2024-10-31T00:00:00</StartDate>
+    <EndDate>2024-11-02T00:00:00</EndDate>
+    <ActualPrice>30.0000</ActualPrice>
   </BookingDetailDto>
   <BookingDetailDto>
-    <BookingReservationId>5</BookingReservationId>
+    <BookingReservationId>6</BookingReservationId>
+    <RoomId>1008</RoomId>
+    <StartDate>2024-10-31T00:00:00</StartDate>
+    <EndDate>2024-11-02T00:00:00</EndDate>
+    <ActualPrice>30.0000</ActualPrice>
+  </BookingDetailDto>
+  <BookingDetailDto>
+    <BookingReservationId>7</BookingReservationId>
     <RoomId>7</RoomId>
-    <StartDate>2024-10-23T15:22:00</StartDate>
-    <EndDate>2024-10-25T15:22:00</EndDate>
-    <ActualPrice>358.0000</ActualPrice>
-  </BookingDetailDto>
-  <BookingDetailDto>
-    <BookingReservationId>5</BookingReservationId>
-    <RoomId>1009</RoomId>
-    <StartDate>2024-10-23T15:22:00</StartDate>
-    <EndDate>2024-10-25T15:22:00</EndDate>
-    <ActualPrice>80.0000</ActualPrice>
+    <StartDate>2024-10-29T16:41:00</StartDate>
+    <EndDate>2024-11-02T16:41:00</EndDate>
+    <ActualPrice>716.0000</ActualPrice>
   </BookingDetailDto>
 </ArrayOfBookingDetailDto>

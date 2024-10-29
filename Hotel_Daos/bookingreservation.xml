@@ -30,9 +30,23 @@
   </BookingReservationDto>
   <BookingReservationDto>
     <BookingReservationId>5</BookingReservationId>
-    <BookingDate>2024-10-23T15:22:25.586</BookingDate>
-    <TotalPrice>836.0000</TotalPrice>
-    <CustomerId>15</CustomerId>
+    <BookingDate>2024-10-29T00:00:00</BookingDate>
+    <TotalPrice>30.0000</TotalPrice>
+    <CustomerId>21</CustomerId>
+    <BookingStatus>1</BookingStatus>
+  </BookingReservationDto>
+  <BookingReservationDto>
+    <BookingReservationId>6</BookingReservationId>
+    <BookingDate>2024-10-29T00:00:00</BookingDate>
+    <TotalPrice>30.0000</TotalPrice>
+    <CustomerId>21</CustomerId>
+    <BookingStatus>1</BookingStatus>
+  </BookingReservationDto>
+  <BookingReservationDto>
+    <BookingReservationId>7</BookingReservationId>
+    <BookingDate>2024-10-29T16:41:45.7535037+07:00</BookingDate>
+    <TotalPrice>716.0000</TotalPrice>
+    <CustomerId>21</CustomerId>
     <BookingStatus>1</BookingStatus>
   </BookingReservationDto>
 </ArrayOfBookingReservationDto>
