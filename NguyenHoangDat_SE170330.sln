@@ -19,11 +19,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HotelManagementRazorPage", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HotelManagementJsonXml", "HotelManagementJsonXml\HotelManagementJsonXml.csproj", "{ACDC1A1D-C42B-4E7F-B658-3D7AA710EFE8}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SQL", "SQL", "{91ADBA1E-70C4-4350-B8C5-04E253DA0A42}"
-	ProjectSection(SolutionItems) = preProject
-		..\..\..\..\Tutorials\PRN221\prn212\2_PRN212\Assignment\FUMiniHotelManagement.sql = ..\..\..\..\Tutorials\PRN221\prn212\2_PRN212\Assignment\FUMiniHotelManagement.sql
-	EndProjectSection
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

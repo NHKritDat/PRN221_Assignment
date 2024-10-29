@@ -75,7 +75,7 @@
   <CustomerDto>
     <CustomerId>21</CustomerId>
     <CustomerFullName>dat</CustomerFullName>
-    <Telephone>0966548257</Telephone>
+    <Telephone>13456789</Telephone>
     <EmailAddress>datnhse170330@fpt.edu.vn</EmailAddress>
     <CustomerBirthday>2003-10-01T00:00:00</CustomerBirthday>
     <CustomerStatus>1</CustomerStatus>
@@ -83,11 +83,11 @@
   </CustomerDto>
   <CustomerDto>
     <CustomerId>22</CustomerId>
-    <CustomerFullName>adawdadwasd</CustomerFullName>
+    <CustomerFullName>Do The Hieu 2</CustomerFullName>
     <Telephone>0967175325</Telephone>
-    <EmailAddress>hieudtse170042@fpt.edu.vn</EmailAddress>
-    <CustomerBirthday>2024-10-29T16:40:00</CustomerBirthday>
+    <EmailAddress>hieudtse170043@fpt.edu.vn</EmailAddress>
+    <CustomerBirthday>2024-10-04T18:33:00</CustomerBirthday>
     <CustomerStatus>1</CustomerStatus>
-    <Password>123@</Password>
+    <Password>312</Password>
   </CustomerDto>
 </ArrayOfCustomerDto>

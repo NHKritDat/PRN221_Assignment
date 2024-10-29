@@ -47,5 +47,12 @@
     "TotalPrice": 1196.0000,
     "CustomerId": 22,
     "BookingStatus": 1
+  },
+  {
+    "BookingReservationId": 8,
+    "BookingDate": "2024-10-29T18:33:40.680107+07:00",
+    "TotalPrice": 1512.0000,
+    "CustomerId": 22,
+    "BookingStatus": 1
   }
 ]

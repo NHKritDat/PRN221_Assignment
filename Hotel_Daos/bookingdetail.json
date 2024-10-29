@@ -61,5 +61,19 @@
     "StartDate": "2024-10-29T16:41:00",
     "EndDate": "2024-11-02T16:41:00",
     "ActualPrice": 1196.0000
+  },
+  {
+    "BookingReservationId": 8,
+    "RoomId": 3,
+    "StartDate": "2024-10-29T18:33:00",
+    "EndDate": "2024-11-02T18:33:00",
+    "ActualPrice": 796.0000
+  },
+  {
+    "BookingReservationId": 8,
+    "RoomId": 7,
+    "StartDate": "2024-10-29T18:33:00",
+    "EndDate": "2024-11-02T18:33:00",
+    "ActualPrice": 716.0000
   }
 ]

@@ -74,7 +74,7 @@
   {
     "CustomerId": 21,
     "CustomerFullName": "dat",
-    "Telephone": "0966548257",
+    "Telephone": "13456789",
     "EmailAddress": "datnhse170330@fpt.edu.vn",
     "CustomerBirthday": "2003-10-01T00:00:00",
     "CustomerStatus": 1,
@@ -82,11 +82,11 @@
   },
   {
     "CustomerId": 22,
-    "CustomerFullName": "Do The Hieu 2",
-    "Telephone": "0966548257",
+    "CustomerFullName": "Nguyen Hoang Dat",
+    "Telephone": "0967175325",
     "EmailAddress": "hieudtse170042@fpt.edu.vn",
-    "CustomerBirthday": "2024-10-29T16:40:00",
+    "CustomerBirthday": "2024-10-29T18:32:00",
     "CustomerStatus": 1,
-    "Password": "123@"
+    "Password": "312"
   }
 ]
