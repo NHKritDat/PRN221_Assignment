@@ -74,19 +74,10 @@
   {
     "CustomerId": 21,
     "CustomerFullName": "dat",
-    "Telephone": "13456789",
+    "Telephone": "1345678910",
     "EmailAddress": "datnhse170330@fpt.edu.vn",
     "CustomerBirthday": "2003-10-01T00:00:00",
     "CustomerStatus": 1,
     "Password": "123@"
-  },
-  {
-    "CustomerId": 22,
-    "CustomerFullName": "Nguyen Hoang Dat",
-    "Telephone": "0967175325",
-    "EmailAddress": "hieudtse170042@fpt.edu.vn",
-    "CustomerBirthday": "2024-10-29T18:32:00",
-    "CustomerStatus": 1,
-    "Password": "312"
   }
 ]

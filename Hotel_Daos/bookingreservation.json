@@ -43,16 +43,44 @@
   },
   {
     "BookingReservationId": 7,
-    "BookingDate": "2024-10-29T16:41:28.7159827+07:00",
-    "TotalPrice": 1196.0000,
-    "CustomerId": 22,
+    "BookingDate": "2024-10-29T00:00:00",
+    "TotalPrice": 190.0000,
+    "CustomerId": 14,
     "BookingStatus": 1
   },
   {
     "BookingReservationId": 8,
-    "BookingDate": "2024-10-29T18:33:40.680107+07:00",
-    "TotalPrice": 1512.0000,
-    "CustomerId": 22,
+    "BookingDate": "2024-10-30T00:00:00",
+    "TotalPrice": 418.0000,
+    "CustomerId": 21,
+    "BookingStatus": 1
+  },
+  {
+    "BookingReservationId": 11,
+    "BookingDate": "2024-10-30T00:00:00",
+    "TotalPrice": 398.0000,
+    "CustomerId": 13,
+    "BookingStatus": 1
+  },
+  {
+    "BookingReservationId": 22,
+    "BookingDate": "2024-10-30T00:00:00",
+    "TotalPrice": 190.0000,
+    "CustomerId": 21,
+    "BookingStatus": 1
+  },
+  {
+    "BookingReservationId": 23,
+    "BookingDate": "2024-10-30T00:00:00",
+    "TotalPrice": 836.0000,
+    "CustomerId": 13,
+    "BookingStatus": 1
+  },
+  {
+    "BookingReservationId": 24,
+    "BookingDate": "2024-10-30T21:35:18.0482102+07:00",
+    "TotalPrice": 897.0000,
+    "CustomerId": 9,
     "BookingStatus": 1
   }
 ]

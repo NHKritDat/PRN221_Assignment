@@ -55,7 +55,7 @@ namespace HotelManagementRazorPage.Pages.BookingPage
 
             decimal? totalPrice = 0;
             var days = (BookingDetail.EndDate - BookingDetail.StartDate).Days;
-            int bookingReservationId = _bookingReservationService.GetBookingReservations().Last().CustomerId + 1;
+            int bookingReservationId = _bookingReservationService.GetBookingReservations().Last().BookingReservationId + 1;
             var bookingDetails = new List<BookingDetail>();
             BookingDetail.BookingReservationId = bookingReservationId;
             var rooms = new List<RoomInformation>();

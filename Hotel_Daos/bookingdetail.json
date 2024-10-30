@@ -57,23 +57,86 @@
   },
   {
     "BookingReservationId": 7,
-    "RoomId": 2,
-    "StartDate": "2024-10-29T16:41:00",
-    "EndDate": "2024-11-02T16:41:00",
-    "ActualPrice": 1196.0000
+    "RoomId": 1009,
+    "StartDate": "2024-10-30T00:00:00",
+    "EndDate": "2024-10-31T00:00:00",
+    "ActualPrice": 40.0000
+  },
+  {
+    "BookingReservationId": 7,
+    "RoomId": 1013,
+    "StartDate": "2024-10-30T00:00:00",
+    "EndDate": "2024-10-31T00:00:00",
+    "ActualPrice": 150.0000
   },
   {
     "BookingReservationId": 8,
     "RoomId": 3,
-    "StartDate": "2024-10-29T18:33:00",
-    "EndDate": "2024-11-02T18:33:00",
-    "ActualPrice": 796.0000
+    "StartDate": "2024-10-31T00:00:00",
+    "EndDate": "2024-11-01T00:00:00",
+    "ActualPrice": 199.0000
   },
   {
     "BookingReservationId": 8,
+    "RoomId": 5,
+    "StartDate": "2024-10-31T00:00:00",
+    "EndDate": "2024-11-01T00:00:00",
+    "ActualPrice": 219.0000
+  },
+  {
+    "BookingReservationId": 11,
+    "RoomId": 5,
+    "StartDate": "2024-10-31T00:00:00",
+    "EndDate": "2024-11-01T00:00:00",
+    "ActualPrice": 219.0000
+  },
+  {
+    "BookingReservationId": 11,
     "RoomId": 7,
-    "StartDate": "2024-10-29T18:33:00",
-    "EndDate": "2024-11-02T18:33:00",
-    "ActualPrice": 716.0000
+    "StartDate": "2024-10-31T00:00:00",
+    "EndDate": "2024-11-01T00:00:00",
+    "ActualPrice": 179.0000
+  },
+  {
+    "BookingReservationId": 22,
+    "RoomId": 7,
+    "StartDate": "2024-10-30T00:00:00",
+    "EndDate": "2024-10-31T00:00:00",
+    "ActualPrice": 179.0000
+  },
+  {
+    "BookingReservationId": 22,
+    "RoomId": 1009,
+    "StartDate": "2024-10-30T00:00:00",
+    "EndDate": "2024-10-31T00:00:00",
+    "ActualPrice": 40.0000
+  },
+  {
+    "BookingReservationId": 22,
+    "RoomId": 1013,
+    "StartDate": "2024-10-30T00:00:00",
+    "EndDate": "2024-10-31T00:00:00",
+    "ActualPrice": 150.0000
+  },
+  {
+    "BookingReservationId": 23,
+    "RoomId": 3,
+    "StartDate": "2024-10-31T00:00:00",
+    "EndDate": "2024-11-02T00:00:00",
+    "ActualPrice": 398.0000
+  },
+  {
+    "BookingReservationId": 23,
+    "RoomId": 5,
+    "StartDate": "2024-10-31T00:00:00",
+    "EndDate": "2024-11-02T00:00:00",
+    "ActualPrice": 438.0000
+  },
+  {
+    "BookingReservationId": 24,
+    "RoomId": 2,
+    "StartDate": "2024-10-30T21:35:00",
+    "EndDate": "2024-11-02T21:35:00",
+    "ActualPrice": 897.0000
   }
 ]

@@ -52,5 +52,23 @@
     "RoomTypeId": 3,
     "RoomStatus": 1,
     "RoomPricePerDay": 40.0000
+  },
+  {
+    "RoomId": 1013,
+    "RoomNumber": "987",
+    "RoomDetailDescription": "Phong 6 nguoi",
+    "RoomMaxCapacity": 6,
+    "RoomTypeId": 3,
+    "RoomStatus": 1,
+    "RoomPricePerDay": 150.0000
+  },
+  {
+    "RoomId": 1014,
+    "RoomNumber": "41",
+    "RoomDetailDescription": "123",
+    "RoomMaxCapacity": 12,
+    "RoomTypeId": 5,
+    "RoomStatus": 2,
+    "RoomPricePerDay": 13
   }
 ]

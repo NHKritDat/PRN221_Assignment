@@ -44,9 +44,44 @@
   </BookingReservationDto>
   <BookingReservationDto>
     <BookingReservationId>7</BookingReservationId>
-    <BookingDate>2024-10-29T16:41:45.7535037+07:00</BookingDate>
-    <TotalPrice>716.0000</TotalPrice>
+    <BookingDate>2024-10-29T00:00:00</BookingDate>
+    <TotalPrice>190.0000</TotalPrice>
+    <CustomerId>14</CustomerId>
+    <BookingStatus>1</BookingStatus>
+  </BookingReservationDto>
+  <BookingReservationDto>
+    <BookingReservationId>8</BookingReservationId>
+    <BookingDate>2024-10-30T00:00:00</BookingDate>
+    <TotalPrice>418.0000</TotalPrice>
     <CustomerId>21</CustomerId>
+    <BookingStatus>1</BookingStatus>
+  </BookingReservationDto>
+  <BookingReservationDto>
+    <BookingReservationId>11</BookingReservationId>
+    <BookingDate>2024-10-30T00:00:00</BookingDate>
+    <TotalPrice>398.0000</TotalPrice>
+    <CustomerId>13</CustomerId>
+    <BookingStatus>1</BookingStatus>
+  </BookingReservationDto>
+  <BookingReservationDto>
+    <BookingReservationId>22</BookingReservationId>
+    <BookingDate>2024-10-30T00:00:00</BookingDate>
+    <TotalPrice>190.0000</TotalPrice>
+    <CustomerId>21</CustomerId>
+    <BookingStatus>1</BookingStatus>
+  </BookingReservationDto>
+  <BookingReservationDto>
+    <BookingReservationId>23</BookingReservationId>
+    <BookingDate>2024-10-30T00:00:00</BookingDate>
+    <TotalPrice>836.0000</TotalPrice>
+    <CustomerId>13</CustomerId>
+    <BookingStatus>1</BookingStatus>
+  </BookingReservationDto>
+  <BookingReservationDto>
+    <BookingReservationId>24</BookingReservationId>
+    <BookingDate>2024-10-30T21:35:41.3532863+07:00</BookingDate>
+    <TotalPrice>3184.0000</TotalPrice>
+    <CustomerId>11</CustomerId>
     <BookingStatus>1</BookingStatus>
   </BookingReservationDto>
 </ArrayOfBookingReservationDto>

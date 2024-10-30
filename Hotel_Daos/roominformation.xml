@@ -54,4 +54,22 @@
     <RoomStatus>1</RoomStatus>
     <RoomPricePerDay>40.0000</RoomPricePerDay>
   </RoomInformationDto>
+  <RoomInformationDto>
+    <RoomId>1013</RoomId>
+    <RoomNumber>987</RoomNumber>
+    <RoomDetailDescription>Phong 6 nguoi</RoomDetailDescription>
+    <RoomMaxCapacity>6</RoomMaxCapacity>
+    <RoomTypeId>3</RoomTypeId>
+    <RoomStatus>1</RoomStatus>
+    <RoomPricePerDay>150.0000</RoomPricePerDay>
+  </RoomInformationDto>
+  <RoomInformationDto>
+    <RoomId>1014</RoomId>
+    <RoomNumber>123456</RoomNumber>
+    <RoomDetailDescription>1231231</RoomDetailDescription>
+    <RoomMaxCapacity>123</RoomMaxCapacity>
+    <RoomTypeId>8</RoomTypeId>
+    <RoomStatus>1</RoomStatus>
+    <RoomPricePerDay>1234.00</RoomPricePerDay>
+  </RoomInformationDto>
 </ArrayOfRoomInformationDto>
